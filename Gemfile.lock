@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    puma_newrelic_stats (0.1.0)
-      newrelic_rpm (~> 6.0)
+    puma_newrelic_stats (0.1.1)
+      newrelic_rpm (>= 6.0)
 
 GEM
   remote: https://rubygems.org/
@@ -46,7 +46,7 @@ PLATFORMS
 
 DEPENDENCIES
   minitest (~> 5.16)
-  puma (~> 5.0)
+  puma (>= 5.0)
   puma_newrelic_stats!
   rake (~> 13.0)
   rubocop (~> 1.21)
